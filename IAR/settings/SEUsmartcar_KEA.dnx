@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <JLinkDriver>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </JLinkDriver>
+    <DebugChecksum>
+        <Checksum>4049680386</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <Disassembly>
+        <InstrCount>0</InstrCount>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <InterruptStripe>
+        <Sort>0</Sort>
+    </InterruptStripe>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <Interrupts>
+        <Enabled>1</Enabled>
+    </Interrupts>
+    <MemConfig>
+        <Base>1</Base>
+        <Manual>0</Manual>
+        <Ddf>1</Ddf>
+        <TypeViol>0</TypeViol>
+        <Stop>1</Stop>
+    </MemConfig>
+    <Simulator>
+        <Freq>10000000</Freq>
+        <FreqHi>0</FreqHi>
+        <MultiCoreRunAll>1</MultiCoreRunAll>
+    </Simulator>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>1</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\main.c}.281.1" 0 0 1 "" 0 "" 0</Bp0>
+        <Count>1</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "" ""</A0>
+        <A1>_ "C:\Users\admin\Desktop\KEA(1)\KEA\Libraries\Device\IAR-ARM\cstartup_M_KEA128.s" "E:\智能车\华东赛\KEA(1)\KEA(1)\KEA\Libraries\Device\IAR-ARM\cstartup_M_KEA128.s"</A1>
+        <A2>_ "C:\Users\曹博\Desktop\KEA测试代码\main.c" ""</A2>
+        <A3>_ "C:\Users\曹博\Desktop\短学期\KEA_最小简洁版本\Libraries\Device\low_level_init.c" ""</A3>
+        <A4>_ "C:\Users\曹博\Desktop\短学期\KEA_最小简洁版本\Libraries\Device\system_SKEAZ1284.c" ""</A4>
+        <A5>_ "C:\Users\曹博\Desktop\短学期\KEA_最小简洁版本\Libraries\Driver\src\KEA128_GPIO.c" ""</A5>
+        <A6>_ "C:\Users\曹博\Desktop\短学期\KEA_最小简洁版本\Libraries\Driver\src\KEA128_KBI.c" ""</A6>
+        <A7>_ "C:\Users\曹博\Desktop\短学期\KEA_最小简洁版本\Libraries\Driver\src\KEA128_PIT.c" ""</A7>
+        <A8>_ "C:\Users\曹博\Desktop\短学期\KEA_最小简洁版本\Libraries\Driver\src\KEA128_Port.c" ""</A8>
+        <A9>_ "C:\Users\曹博\Desktop\短学期\KEA_最小简洁版本\Libraries\Driver\src\KEA128_UART.c" ""</A9>
+        <A10>_ "C:\Users\曹博\Desktop\短学期\KEA_最小简洁版本\Libraries\Driver\src\delay.c" ""</A10>
+        <A11>_ "G:\KEA\Libraries\Device\IAR-ARM\cstartup_M_KEA128.s" "E:\智能车\华东赛\KEA(1)\KEA\Libraries\Device\IAR-ARM\cstartup_M_KEA128.s"</A11>
+        <A12>_ "G:\KEA\Libraries\Driver\src\gpio.c" ""</A12>
+        <A13>_ "G:\KEA\Libraries\Driver\src\port.c" ""</A13>
+        <Count>14</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+</settings>
